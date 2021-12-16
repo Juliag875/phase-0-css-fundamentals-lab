@@ -2,4 +2,62 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  background-color: beige;
+}
+
+/* Header styles */
+h1 {
+  color: darkred;
+  text-transform: uppercase;
+}
+
+h1,
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline;
+  background-color: rgb(218, 228, 228);
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+/* Image styles */
+#featured-property img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+  text-decoration: underline rgb(243, 232, 232);
+  padding-top: 10px;
+}
+
+/* Content styles */
+#featured-property p {
+  text-align: center;
+  line-height: 1.25em;
+  width: 800px;
+  margin: auto;
+}
+
+hr {
+  width: 800px;
+}
+
+/* Footer styles */
+#details div {
+  float: left;
+  background-color: rgb(204, 50, 50);
+  text-align: center;
+  color: white;
+  width: 25%;
+  margin-top: 15px;
 }
